@@ -21,11 +21,11 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/txt1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Use un click prolongado sobre cualquier tarea para eliminarla" />
+                android:text="Use un click sobre cualquier tarea para eliminarla" />
         </LinearLayout>
 
         <LinearLayout
@@ -41,9 +41,7 @@
                 android:layout_gravity="left"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Escriba una nueva tarea"
-                android:onClick="limpiar" />
-
+                android:text="Escriba una nueva tarea" />
         </LinearLayout>
 
         <LinearLayout
@@ -58,7 +56,6 @@
                 android:layout_gravity="center"
                 android:background="#FB8A82"
                 android:gravity="center"
-                android:onClick="agregar"
                 android:text="Agregar" />
         </LinearLayout>
 
